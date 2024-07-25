@@ -1,0 +1,19 @@
+{
+  "name": "2-facade-design-pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean-out": "rimraf ./out",
+    "compile": "tsc",
+    "start-index": "node ./out/index.js",
+    "start": "npm run clean-out && npm run compile && npm run start-index"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
